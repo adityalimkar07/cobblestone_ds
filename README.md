@@ -43,14 +43,15 @@ python src/quant_strategy.py
 ### 4. Running the Simulation
 Execute the trading engine to verify performance on the test set.
 ```bash
-python src/live_simulation.py
+python src/simulation_h1.py
+python src/simulation_h2.py
+
 ```
 
-### 5. Visualization (2024 Backtest)
-Generate the Equity Curve and Timelapse GIF to visualize performance over time.
+### 5. Visualization (H2 Backtest)
+Generate the Equity Curve and Timelapse GIF to visualize performance over time. (Corresponding graphs are automatically generated if you run simulation_h1.py and simulation_h2.py, respectively)
 ```bash
 python src/visualize_backtest.py
-python src/generate_2024_gif.py
 ```
 
 ---
@@ -72,3 +73,4 @@ python src/generate_2024_gif.py
 ├── requirements.txt
 └── README.md
 ```
+
