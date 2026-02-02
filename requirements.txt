@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib
+requests
+groq
+python-dotenv
+feedparser
+torch
+xgboost
+yfinance
